@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+#search-button{
+    margin-top: 10px;
+float: right;
+border: none;
+background-color: white;
+cursor: pointer;
+font-size:large;
+color: gray;
+margin-right: 20px;
+
+}
+
+#header h1 {
+    padding-top: 20px;
+margin-left: 20px;
+
+}
+
+.sticky-navbar{
+     overflow: hidden;
+     background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+#navigation-bar {
+
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 1px solid gray;
+
+}
+
+#navigation-bar a {
+  float: left;
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+
+#navigation-bar a.active {
+  border-bottom: 3px solid #006241;
+  font-weight: bold;
+  color: #27251F;
+}
+
+
+.menu-header {
+    margin-left: 20px;
+}
+
+li span {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+li img {
+    border-radius: 50%;
+    height: 100px;
+}
+li {
+    padding-top: 10px;
+    display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.menu-count-header{
+    color: #006241;
+    padding-top: 6px;
+    padding-right: 20px;
+
+
+}
+
+.header-container{
+      display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#food-menu .header-container {
+    padding-top: 20px;
+}
+
+.product-menu{
+    margin-top: 150px;
+}
+
+.container{
+    width: 98vw;
+}
